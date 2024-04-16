@@ -1,0 +1,118 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    color: #DFF2D8;
+    margin: 0;
+    position: relative;
+}
+
+#headerimg {
+    background-image: url("images/spanish-pattern.png");
+    background-size: 50%;
+    background-color: #499B27;
+    filter: blur(2px);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    position: absolute;
+}
+
+header * {
+    position: absolute;
+}
+
+header h1 {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-size: 350%;
+    text-shadow: black 2px 2px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    height: 75px;
+    align-content: center;
+    background-color: #499B27;
+    margin: 0;
+    box-shadow: #499B27 0 -10px;
+    justify-content: left;
+}
+
+nav ul a {
+    height: 100%;
+    width: 15%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration-line: none;
+    font-size: 1.2em;
+}
+
+nav ul a:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+#chapterSelect {
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 50px;
+    font-size: 1.5em;
+}
+
+select {
+    font-size: 0.8em;
+}
+
+#face {
+    margin-left: 25vw;
+    height: 200px
+}
+
+#audioSpa {
+    width: 50%;
+    float: right;
+    margin: 3%;
+}
+
+#form {
+    width: 100%;
+    text-align: center;
+}
+
+.column {
+    display: inline-block;
+}
+
+.gone {
+    display: none;
+}
+
+#submit {
+    width: 30%;
+    height: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#next {
+    width: 20%;
+    height: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: right;
+}
+
+#score {
+    margin-left: 25%;
+}
